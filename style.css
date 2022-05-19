@@ -19,7 +19,7 @@ body {
   padding: 0 2rem;
 }
 
-.header-container {
+header {
   display: flex;
   justify-content: center;
   margin: 5rem 0;
@@ -48,7 +48,7 @@ h1::before {
 /*-------------*/
 /* Cards*/
 .cards{
-  
+
 }
 
 .card {
