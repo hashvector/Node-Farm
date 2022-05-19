@@ -49,7 +49,7 @@ h1::before {
 /* Cards*/
 .card {
   display: grid;
-  grid-template-columns: auto auto 1fr auto;
+  grid-template-columns: auto 1fr 1fr auto;
   align-items: center;
   transform: skewX(-20deg);
 }
@@ -58,6 +58,7 @@ h1::before {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  gap: 5rem;
 }
 
 .card-emoji,
