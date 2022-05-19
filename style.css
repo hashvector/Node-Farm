@@ -10,7 +10,6 @@ html {
 
 body {
   background: linear-gradient(to bottom right, #9be15d, #00e3ae);
-  min-height: 100vh;
 }
 
 .container {
@@ -48,7 +47,10 @@ h1::before {
 /*-------------*/
 /* Cards*/
 .cards{
-
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 5rem;
 }
 
 .card {
