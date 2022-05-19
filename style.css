@@ -19,14 +19,28 @@ body {
   padding: 0 2rem;
 }
 
-header{
+.header-container {
   display: flex;
   justify-content: center;
+  margin: 7rem 0;
+  text-align: center;
 }
 
 h1 {
-  font-size: 4rem;
-  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  font-size: 5rem;
+  transform: rotate(-4deg);
+  color: #fff;
+  position: relative;
+}
+
+h1::before {
+  content: '';
   display: inline-block;
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: rotate(8deg);
 }
