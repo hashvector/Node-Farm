@@ -117,3 +117,19 @@ h1::before {
   font-size: 1.8rem;
   font-weight: 900;
 }
+
+.card-view-box {
+  background: #9be15d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-view:link,
+.card-view:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 900;
+  transform: skewX(20deg);
+}
