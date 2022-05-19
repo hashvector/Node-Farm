@@ -52,6 +52,14 @@ h1::before {
   grid-template-columns: auto 1fr auto auto;
   align-items: center;
   transform: skewX(-20deg);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1) skew(-20deg);
+  /* transform: scale(1); */
+  /* transform: skew(-20deg); */
+  /* transform: translate(-2rem); */
 }
 
 .card-emoji,
