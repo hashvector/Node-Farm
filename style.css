@@ -44,3 +44,15 @@ h1::before {
   z-index: -1;
   transform: rotate(8deg);
 }
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  align-items: center;
+}
+
+.details-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
