@@ -49,10 +49,23 @@ h1::before {
   display: grid;
   grid-template-columns: auto auto 1fr auto;
   align-items: center;
+  transform: skewX(-20deg);
 }
 
 .details-box {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.card-emoji,
+.details-box {
+  background: #fff;
+}
+
+.card-emoji,
+.card-title-box,
+.details-box,
+.card-view-box {
+  padding: 2rem;
 }
