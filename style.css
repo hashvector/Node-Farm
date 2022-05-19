@@ -80,30 +80,40 @@ h1::before {
   font-size: 3rem;
   color: #fff;
   text-align: center;
+  transform: skewX(20deg);
 }
 
 .details-box {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 2rem;
   height: 100%;
 }
 
 .card-detail {
   padding: 3rem 2rem;
+}
+
+.card-detail:not(:last-child) {
   border-right: 1px solid #eee;
 }
 
-.card-detail:last-child {
-  border: none;
-}
-
 .organic-text {
-  font-size: 1.9rem;
   text-transform: uppercase;
   background-image: linear-gradient(to right, #00e3ae, #9be15d);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.detail-text {
+  font-size: 1.5rem;
+  transform: skewX(20deg);
+}
+
+.organic-text,
+.price-text {
+  transform: skewX(20deg);
+  font-size: 1.8rem;
+  font-weight: 900;
 }
