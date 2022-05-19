@@ -102,11 +102,8 @@ h1::before {
 .organic-text {
   font-size: 1.9rem;
   text-transform: uppercase;
-  background: linear-gradient(to right, #00e3ae, #9be15d);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #00e3ae, #9be15d);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
-
-/* .card-detail:not(.card-detail:last-child()) {
-} */
