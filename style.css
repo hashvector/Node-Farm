@@ -9,6 +9,8 @@ html {
 }
 
 body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #555;
   background: linear-gradient(to bottom right, #9be15d, #00e3ae);
 }
 
@@ -26,7 +28,8 @@ header {
 }
 
 h1 {
-  font-size: 4rem;
+  font-family: 'Megrim', sans-serif;
+  font-size: 5rem;
   transform: rotate(-4deg);
   color: #fff;
   position: relative;
@@ -92,6 +95,7 @@ h1::before {
 }
 
 .card-title {
+  font-family: 'Megrim', sans-serif;
   font-size: 3rem;
   color: #fff;
   text-align: center;
