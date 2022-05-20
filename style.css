@@ -46,7 +46,7 @@ h1::before {
 
 /*-------------*/
 /* Cards*/
-.cards{
+.cards {
   display: flex;
   flex-direction: column;
   gap: 3rem;
